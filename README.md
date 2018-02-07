@@ -46,6 +46,7 @@ Option name | Default | Explanation
 `auth_type` | | Optionally specifies the requested authentication features as a comma-separated list, as per https://developers.facebook.com/docs/facebook-login/reauthentication/. Valid values are `https` (checks for the presence of the secure cookie and asks for re-authentication if it is not present), and `reauthenticate` (asks the user to re-authenticate unconditionally). Use 'rerequest' when you want to request premissions. Default is `nil`.
 `secure_image_url` | `false` | Set to `true` to use https for the avatar image url returned in the auth hash.
 `callback_url` / `callback_path` | | Specify a custom callback URL used during the server-side flow. Note this must be allowed by your app configuration on Facebook (see 'Valid OAuth redirect URIs' under the 'Advanced' settings section in the configuration for your Facebook app for more details).
+`disable_request_phase_get` | `false` | Set to `true` to disable `GET`s on the `/auth/facebook` endpoint (mitigation of https://sakurity.com/blog/2015/03/05/RECONNECT.html)
 
 For example, to request `email`, `user_birthday` and `read_stream` permissions and display the authentication page in a popup window:
 
