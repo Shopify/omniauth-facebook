@@ -115,7 +115,7 @@ module OmniAuth
       end
 
       def request_phase
-        call_app! if request.request_method == "GET" && options.disable_request_phase_get
+        return call_app! if request.request_method == "GET" && options.disable_request_phase_get
         super
       end
 
