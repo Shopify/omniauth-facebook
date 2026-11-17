@@ -1,3 +1,5 @@
+> **This repository is no longer maintained.** It has been archived by Shopify and receives no updates or security fixes.
+
 # OmniAuth Facebook &nbsp;[![Build Status](https://secure.travis-ci.org/mkdynamic/omniauth-facebook.svg?branch=master)](https://travis-ci.org/mkdynamic/omniauth-facebook) [![Gem Version](https://img.shields.io/gem/v/omniauth-facebook.svg)](https://rubygems.org/gems/omniauth-facebook)
 
 📣 **NOTICE** We’re looking for maintainers to help keep this project up-to-date. If you are interested in helping please open an Issue expressing your interest. Thanks! 📣
